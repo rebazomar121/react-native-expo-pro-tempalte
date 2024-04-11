@@ -1,13 +1,18 @@
 import React from "react"
-import { View, Text } from "react-native"
+import { View } from "react-native"
+import Text from "@components/reusable/Text"
+import Container from "@src/components/reusable/Container"
 
 const Home: React.FC = () => {
   return (
-    <View className="flex-1 justify-center items-center bg-white">
-      <Text className="text-center mt-3 text-2xl font-light text-orange-300">
+    <Container>
+      <Text
+        className="text-center mt-3 text-3xl text-orange-300 dark:text-orange-900"
+        fontFamily="boldK24"
+      >
         Login
       </Text>
-    </View>
+    </Container>
   )
 }
 

@@ -13,6 +13,9 @@
       "@types/*": ["types/*"],
       "@constants/*": ["src/constants/*"],
       "@helpers/*": ["src/helpers/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@services/*": ["src/services/*"],
+      "@reusable/*": ["src/reusable/*"],
     }
   }
 }

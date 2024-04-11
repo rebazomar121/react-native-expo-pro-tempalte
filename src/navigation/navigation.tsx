@@ -10,7 +10,6 @@ import AsyncStorage from "@react-native-async-storage/async-storage"
 import { GENERAL_CONSTANTS } from "@src/constants/general.const"
 import AuthScreens from "./authScreens"
 
-const Stack = createNativeStackNavigator()
 
 const Navigation = () => {
   const [fontsLoaded, setFontsLoaded] = useState(false)

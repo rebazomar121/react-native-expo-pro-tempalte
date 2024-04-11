@@ -6,8 +6,8 @@ export const fontLoader = async ({
   setFontsLoaded: (loaded: boolean) => void
 }): Promise<void> => {
   await Font.loadAsync({
-    regular: require("../../../assets/fonts/K24KurdishLight-Light.ttf"),
-    bold: require("../../../assets/fonts/K24KurdishBold-Bold.ttf"),
+    regularK24: require("../../../assets/fonts/K24KurdishLight-Light.ttf"),
+    boldK24: require("../../../assets/fonts/K24KurdishBold-Bold.ttf"),
   })
   setFontsLoaded(true)
 }
