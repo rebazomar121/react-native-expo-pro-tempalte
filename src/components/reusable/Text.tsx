@@ -18,8 +18,6 @@ const CustomText: React.FC<Props> = ({
     fontFamily: fontFamily,
   }
 
-  console.log("styles", styles)
-
   return (
     <Text style={[styles, style]} className={`text-left  ${className}`}>
       {children}

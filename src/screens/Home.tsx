@@ -10,7 +10,7 @@ const Home: React.FC = () => {
         className="text-center mt-3 text-3xl text-orange-300 dark:text-orange-900"
         fontFamily="boldK24"
       >
-        Login
+        Home Page
       </Text>
     </Container>
   )
